@@ -25,7 +25,7 @@ flags.DEFINE_string('checkpoint_path', None, 'Path to the pretrained model.')
 flags.DEFINE_integer('num_images', 10000, 'Number of images to be generated.')
 flags.DEFINE_integer('batch_size', 32, 'Batch size.')
 flags.DEFINE_integer('num_classes', 10, 'Number of classes.')
-flags.DEFINE_integer('num_steps', 1000, 'Number of training steps.')
+flags.DEFINE_integer('num_steps', 500, 'Number of training steps.')
 
 FLAGS = flags.FLAGS
 
